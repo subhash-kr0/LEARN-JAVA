@@ -1,5 +1,8 @@
-package Basic Syntex;
+
 
 public class Tut5 {
+    public static void main(String[] args) {
+        
+    }
     
 }
