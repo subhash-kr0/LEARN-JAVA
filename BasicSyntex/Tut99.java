@@ -1,10 +1,10 @@
 //Map Filter Reduce sorted
 
-// package Basic Syntex;
-
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.stream.Stream;
 
 public class Tut99 {
     public static void main(String a[]) {
@@ -19,17 +19,32 @@ public class Tut99 {
         //         else
         //             return false;
         //     }
+        //}
+         Predicate<Integer> p = n -> n%2 == 0; 
+         
+        // Function<Integer, Integer> fun = new Function<Integer, Integer>() {
 
-         Predicate<Integer> p = n -> n%2; 
+        //     public Integer apply(Integer n){
+        //         return n*2;
+        //     }
             
-        };
+        // };
+
+        Function<Integer, Integer> fun = n -> n*2;
 
         int result = nums.stream()
-                .filter(p)
-                .map(n -> n * 2)
-                .reduce(0, (c, e) -> c + e);
+                         .filter(p)
+                        //  .map(n -> n * 2)
+                         .map(fun)
+                         .reduce(0, (c, e) -> c + e);
 
         System.out.println(result);
+
+        Stream<Integer> sortedValues = nums.stream()
+                        .filter(n -> n%2==0)
+                        .sorted();
+
+        sortedValues.forEach(n -> System.out.println(n));
 
     }
 }

@@ -17,7 +17,7 @@ class B extends A {
         super(5);
         System.out.println("in B");
     }
-
+    
     public B(int n) {
         // super(6);                          // n for calling "in A int"
         this();                               //this for calling same class contructor
