@@ -268,4 +268,55 @@
 // git diff "branch name"
 // git diff "branch name" "branch name"
 // git diff "branch name" "branch name" --stat
-// 
+// git commit -am "message"
+
+// merge conflict
+   merge conflict is when two branches have different changes to the same line of a file, or when a file has been deleted in one branch but edited in the other.
+    git merge "branch name"
+    git merge "branch name" "branch name"
+    git merge "branch name" "branch name" --no-ff
+    git merge "branch name" "branch name" --ff-only
+    git merge "branch name" "branch name" --abort
+    git merge "branch name" "branch name" --continue
+    git merge "branch name" "branch name" --no-commit
+    git merge "branch name" "branch name" --squash
+    git merge "branch name" "branch name" --strategy
+    git merge "branch name" "branch name" --strategy-option
+    
+
+// ---- Undoing in Git------
+// git reset
+// git reset --soft
+// git reset --mixed
+// git reset --hard
+// git reset --merge
+// git reset --keep
+// git reset --hard HEAD
+// git reset --hard HEAD^
+// git reset --hard HEAD^^
+// git reset --hard HEAD~3
+// git reset --hard "commit id"
+// git reset --hard "commit id"~3
+// git reset --hard "commit id"^
+// git reset --hard "commit id"^
+// git reset --hard "commit id"^^
+
+// git revert
+// git revert "commit id"
+// git revert "commit id"~3
+
+// git checkout
+// git checkout "commit id"
+
+// git clean
+// git clean -n
+// git clean -f
+// git clean -f -d
+// git clean -f -d -x
+
+// git reset (commit id)
+
+// git fork (forking a repo)
+// git fork (forking a repo) -u "username"
+// git fork (forking a repo) -u "username" -r "repo name"
+
