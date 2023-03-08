@@ -12,9 +12,9 @@ class B{
     }
 }
 
-class C extends A,B // Not work
-{
-    public C(){
-        System.out.println("in C");
-    }
-}
+// class C extends A,B // Not work
+// {
+//     public C(){
+//         System.out.println("in C");
+//     }
+// }

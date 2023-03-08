@@ -1,0 +1,127 @@
+// Classification of Computer
+// 1. Super Computer
+// 2. Mainframe Computer
+// 3. Mini Computer
+// 4. Micro Computer
+// 5. Personal Computer
+// 6. Laptop Computer
+// 7. Handheld Computer
+// 8. PDA
+// 9. Smart Phone
+// 10. Tablet Computer
+// 11. Wearable Computer
+// 12. Embedded Computer
+// 13. Robot Computer
+// 14. Virtual Computer
+// 15. Cloud Computer
+// 16. Quantum Computer
+// 17. Artificial Intelligence Computer
+// 18. Internet of Things Computer
+// 19. Augmented Reality Computer
+// 20. Virtual Reality Computer
+// 21. Mixed Reality Computer
+// 22. 3D Computer
+// 23. 4D Computer
+
+// Features of Computer
+// 1. Speed
+// 2. Accuracy
+// 3. Reliability
+// 4. Flexibility
+// 5. Storage
+// 6. Communication
+// 7. Security
+// 8. Cost
+// 9. Power
+// 10. Size
+// 11. Weight
+// 12. Noise
+// 13. Heat
+// 14. Maintenance
+// 15. Upgradability
+// 16. Portability
+// 17. Availability
+// 18. Scalability
+// 19. Interoperability
+// 20. Efficiency
+
+// Components of Computer
+// 1. Input Unit
+// 2. Output Unit
+// 3. Memory Unit
+// 4. Central Processing Unit
+// 5. Control Unit
+// 6. Arithmetic and Logic Unit
+// 7. Primary Storage
+// 8. Secondary Storage
+
+// Input Unit
+// 1. Keyboard
+// 2. Mouse
+// 3. Scanner
+// 4. Microphone
+// 5. Camera
+// 6. Touch Screen
+// 7. Joystick  
+// 8. Light Pen
+
+// Output Unit
+// 1. Monitor
+// 2. Printer
+// 3. Speaker
+// 4. Headphone
+// 5. Projector
+// 6. Hologram
+
+// Memory Unit
+// 1. RAM
+// 2. ROM
+// 3. Cache
+
+// Central Processing Unit
+// 1. Control Unit
+// 2. Arithmetic and Logic Unit
+
+// Primary Storage
+// 1. RAM
+// 2. Cache
+
+// Secondary Storage
+// 1. ROM
+// 2. Hard Disk
+// 3. Floppy Disk
+// 4. CD
+// 5. DVD
+// 6. Blu-ray
+// 7. USB
+// 8. Flash Drive
+// 9. Memory Card
+// 10. Optical Disk
+// 11. Magnetic Disk
+// 12. Solid State Drive
+
+// Types of Computer
+// 1. Analog Computer
+// 2. Digital Computer
+// 3. Hybrid Computer
+
+// Analog Computer
+// 1. Analog to Digital Converter
+// 2. Digital to Analog Converter
+
+// Digital Computer
+// 1. Binary
+// 2. Ternary
+// 3. Quaternary
+// 4. Quinary
+// 5. Senary
+// 6. Octal
+// 7. Decimal
+// 8. Duodecimal
+// 9. Hexadecimal
+
+// Hybrid Computer
+// 1. Analog to Digital Converter
+// 2. Digital to Analog Converter
+
+

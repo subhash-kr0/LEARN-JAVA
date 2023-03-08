@@ -1,0 +1,214 @@
+// Final Git Tutorial
+
+// Git Commands
+// git init
+// git add .
+// git commit -m "message"
+// git remote add origin
+// git push -u origin master
+
+// git pull
+// git status
+// git log
+// git diff
+// git checkout
+// git branch
+// git merge
+// git reset
+// git revert
+// git stash
+// git tag
+
+// git clone
+// git fetch
+// git rebase
+// git cherry-pick
+// git bisect
+// git blame
+// git shortlog
+// git show
+// git clean
+// git gc
+// git fsck
+// git reflog
+// git archive
+// git remote
+// git config
+// git help
+// git mv
+// git rm
+// git show-branch
+// git whatchanged
+// git worktree
+// git am
+// git apply
+// git cherry
+// git format-patch
+// git imap-send
+// git request-pull
+// git send-email
+// git stage
+// git unstage
+// git update-index
+// git add -p
+// git add -i
+// git mv
+// git rm
+// git stash
+// git stash list
+// git stash show
+// git stash drop
+// git stash pop
+// git stash apply
+// git stash branch
+// git stash clear
+// git stash create
+// git stash store
+// git stash push
+// git stash save
+// git stash show -p
+// git stash show --stat
+// git stash show --patch
+// git stash show --color
+// git stash show --pretty
+// git stash show --text
+// git stash show --no-color
+// git stash show --no-pretty
+// git stash show --no-text
+// git stash show --no-stat
+// git stash show --patch-with-stat
+// git stash show --patch-with-raw
+// git stash show --patch-with-stat --patch-with-raw
+// git stash show --patch-with-raw --patch-with-stat
+// git stash show --patch-with-raw --patch-with-stat --patch-with-raw
+// git stash show --patch-with-stat --patch-with-raw --patch-with-stat
+// git stash show --patch-with-stat --patch-with-stat --patch-with-raw
+// git stash show --patch-with-raw --patch-with-stat --patch-with-stat
+
+// git Advanced Commands
+// git add -p
+// git add -i
+
+// make own git commands
+// git config --global alias.co checkout
+// git config --global alias.br branch
+// git config --global alias.ci commit
+// git config --global alias.st status
+
+// git config --global alias.unstage 'reset HEAD --'
+// git config --global alias.last 'log -1 HEAD'
+
+// git config --global alias.visual '!gitk'
+// git config --global alias.visual '!gitk --all --branches'
+
+// git config --global alias.visual '!gitk --all --branches'
+// git config --global alias.visual '!gitk --all --branches'
+
+// make own github commands
+// git config --global alias.pr '!f() { git request-pull $1 `git rev-parse --abbrev-ref HEAD` $2; }; f'
+
+
+
+// .  Tutorial . //
+1. git init
+2. git add .
+3. git commit -m "message"
+4. git remote add origin
+5. git push -u origin master
+6. git pull
+7. git status
+8. git log
+9. git diff
+10. git checkout
+11. git branch
+12. git merge
+13. git reset
+14. git revert
+15. git stash
+16. git tag
+17. git clone
+18. git fetch
+19. git rebase
+20. git cherry-pick
+21. git bisect
+22. git blame
+23. git shortlog
+24. git show
+25. git clean
+26. git gc
+27. git fsck
+28. git reflog
+29. git archive
+30. git remote
+31. git config
+32. git help
+33. git mv
+34. git rm
+35. git show-branch
+36. git whatchanged
+37. git worktree
+38. git am
+39. git apply
+40. git cherry
+41. git format-patch
+42. git imap-send
+43. git request-pull
+44. git send-email
+45. git stage
+46. git unstage
+47. git update-index
+48. git add -p
+49. git add -i
+50. git mv
+51. git rm
+52. git stash
+53. git stash list
+54. git stash show
+55. git stash drop
+56. git stash pop
+57. git stash apply
+58. git stash branch
+59. git stash clear
+60. git stash create
+61. git stash store
+62. git stash push
+63. git stash save
+64. git stash show -p
+65. git stash show --stat
+66. git stash show --patch
+67. git stash show --color
+68. git stash show --pretty
+69. git stash show --text
+70. git stash show --no-color
+71. git stash show --no-pretty
+72. git stash show --no-text
+73. git stash show --no-stat
+74. git stash show --patch-with-stat
+75. git stash show --patch-with-raw
+
+// Final
+1. git --version
+2. git clone "url"
+3. git add .
+4. git commit -m "message" "descrpiption"
+5. git push
+6. ssh-keygen -t rsa -b 4096 -C "email"
+7. eval "$(ssh-agent -s)"
+8. ssh-add ~/.ssh/id_rsa 
+8. ssh-add ~/.ssh/id_rsa -K
+9. pbcopy < ~/.ssh/id_rsa.pub
+10. git config --global user.name "name"
+11. git config --global user.email "email"
+12. git config --global color.ui auto
+13. git config --global core.editor "code --wait"
+14. git config --global alias.co checkout
+15. git config --global alias.br branch
+16. git config --global alias.ci commit
+17. testkey 
+19. testkey -T
+20. testkey.pub
+21. cat testkey.pub
+22. ssh -T
+
+
+
