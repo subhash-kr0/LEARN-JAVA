@@ -113,7 +113,7 @@
 1. git init
 2. git add .
 3. git commit -m "message"
-4. git remote add origin
+4. git remote add origin "url"
 5. git push -u origin master
 6. git pull
 7. git status
@@ -209,6 +209,63 @@
 20. testkey.pub
 21. cat testkey.pub
 22. ssh -T
+23. git push -u origin master
 
 
+// git flow commands
+// git flow init
+// git flow feature start
+// git flow feature finish
+// git flow feature publish
+// git flow feature track
+// git flow feature diff
+// git flow feature rebase
+// git flow feature checkout
+// git flow feature pull
+// git flow feature delete
+// git flow feature list
+// git flow feature review
+// git flow feature log
+// git flow feature show
+// git flow feature diff
+// git flow feature diffstat
+// git flow feature status
+// git flow feature diff
+// git flow feature diffstat
+// git flow feature status
 
+// Github Workflow
+      write code -> Commit Changes -> Push to Github -> Create Pull Request -> Merge Pull Request -> Pull Changes to Local Machine
+
+// Local git workflow
+      write code -> stage changes -> commit changes -> push changes -> Make a Pull Request -> Merge Pull Request -> Pull Changes to Local Machine      
+
+// Git Branching
+                                                                              Commit #01
+                                                                           //            \\
+
+       Commit #1 ----------Commit #2 ----------Commit #3 ----------Commit #4 ----------Commit #5 ----------Commit #6 ----------Commit #7      
+                                                   \\               //                                       //
+                                                    \\             //                                       //                    
+                                                      \\ Commit #02                                        //
+                                                     \\ .                                                 //
+                                                      \\ ---------------Commit #02 ----------------------//
+
+
+// git branch
+// git branch -a
+// git branch -b "branch name" 
+// git branch -d "branch name"
+// git branch -D "branch name"
+// git branch -m "branch name"
+// git branch -M "branch name"
+// git branch -r
+// git branch -v
+// git checlout "branch name"
+// git checkout -b "branch name"
+// git checkout -B "branch name"
+// git checkout -t "branch name"
+// git diff "branch name"
+// git diff "branch name" "branch name"
+// git diff "branch name" "branch name" --stat
+// 
